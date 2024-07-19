@@ -1,0 +1,4 @@
+<template>
+    <KategoriJudul />
+    <KategoriJenis />
+</template>

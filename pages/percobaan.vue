@@ -33,10 +33,10 @@ const addPercobaan = async() => {
     console.log(newPercobaan)
     if (newPercobaan.value.trim() !== '') {
         // todos.value.push({title: newTodo.value, status: false})
-       
         await satu(newPercobaan.value, newPercobaan1.value, newPercobaan2.value)
-
         newPercobaan.value=""
+        newPercobaan1.value=""
+        newPercobaan2.value=""
     }
     await getPercobaan()
 }

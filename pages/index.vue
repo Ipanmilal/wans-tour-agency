@@ -38,5 +38,6 @@ onMounted(() => {
 <!-- <LandingPageBaris2/> -->
 <LandingPageBaris3/>
 <LandingPageBaris4/>
+<LandingPageAlamat/>
 </template>
 

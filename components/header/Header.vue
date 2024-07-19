@@ -52,18 +52,19 @@
             </button>
           </div>
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="flex items-center">
-                <img src="/assets/images/Artboard 1.png" class="h-12 w-12 gap-6 animate-pulse" alt="">
+            <div class="flex items-center gap-4">
+                <img src="/assets/images/logowta.jpeg" class="h-12 w-12 gap-6 animate-pulse" alt="">
                 <span class="text-2xl text-blue-400 lg:text-xl lg:text-slate-800 font-bold">Wans Tour Agency</span>
             </div>
           </div>
           <div class="hidden sm:block sm:ml-6">
               <div class="item center space-x-4">
                 <NuxtLink to="/" class="text-base text-slate-800">Beranda</NuxtLink>
-                <NuxtLink to="/kategori" class="text-base text-slate-800">About</NuxtLink>
-                <NuxtLink to="/product" class="text-base text-slate-800">Kategori</NuxtLink>
-                <NuxtLink to="/percobaan" class="text-base text-slate-800">Destinasi</NuxtLink>
-                <NuxtLink to="/cart" class="text-base text-slate-800">Informasi</NuxtLink>
+                <NuxtLink to="/about" class="text-base text-slate-800">Tentang</NuxtLink>
+                <NuxtLink to="/kategori" class="text-base text-slate-800">Kategori</NuxtLink>
+                <NuxtLink to="/destinasi" class="text-base text-slate-800">Destinasi</NuxtLink>
+                <NuxtLink to="/informasi" class="text-base text-slate-800">Informasi</NuxtLink>
+                <NuxtLink to="/percobaan" class="bg-sky-500 text-base hover:bg-sky-300 text-white p-2 font-semibold rounded-md">Booking</NuxtLink>
             </div>
             </div>
         </div>
@@ -71,10 +72,10 @@
       <div class="sm:hidden" :class="{ 'block': isOpen, 'hidden': !isOpen }">
         <div class="px-2 pt-2 pb-3 space-y-1 item center ">
                 <NuxtLink to="/" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Beranda</NuxtLink>
-                <NuxtLink to="/product" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2 ">About</NuxtLink>
-                <NuxtLink to="/about" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Kategori</NuxtLink>
-                <NuxtLink to="/cart" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Destinasi</NuxtLink>
-                <NuxtLink to="/cart" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Informasi</NuxtLink>
+                <NuxtLink to="/about" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2 ">About</NuxtLink>
+                <NuxtLink to="/kategori" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Kategori</NuxtLink>
+                <NuxtLink to="/destinasi" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Destinasi</NuxtLink>
+                <NuxtLink to="/informasi" class="text-base text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2">Informasi</NuxtLink>
         </div>
       </div>
     </nav>
