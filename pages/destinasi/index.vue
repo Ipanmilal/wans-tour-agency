@@ -1,0 +1,4 @@
+<template>
+    <DestinasiJudul />
+    <DestinasiJenis />
+</template>

@@ -22,7 +22,7 @@
                      </div>
                 </div>
                 <div>
-                    <img src="/assets/images/Artboard 1.png" class="hidden sm:block h-[300px] w-[300px] animate-pulse" alt="">
+                    <img src="/assets/images/logowta.png" class="hidden sm:block h-[300px] w-[300px]" alt="">
                 </div>
             </div>
             <!-- Penulisan tampilan no hp penyedia jasa -->
