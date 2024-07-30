@@ -17,6 +17,8 @@ const clikEdit = (id: number, nama: string, alamat: string, no_hp:string) => {
   newPercobaan1.value=alamat
   newPercobaan2.value=no_hp
   editId.value=id
+  
+  console.log("tes" + id)
 }
 </script>
 

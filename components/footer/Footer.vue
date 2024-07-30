@@ -11,8 +11,13 @@
                 <p class="text-gray-500">FAQs</p>
             </div>
         </div>
-        <img src="#" class="h-12 w-30 px-10" alt="">
+        <div class=" top-[80%] left-50 right-5 fixed">
+            <a href="https://wa.link/2ua9sj" target="_blank">
+            <img src="/assets/images/wa.png" class="h-12 w-30 px-10" alt="">
+            </a>
+        </div>
     </footer>
+    
 </template>
 <!-- <script>
 var url =
