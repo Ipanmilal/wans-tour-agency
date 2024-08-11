@@ -34,7 +34,7 @@ const allProducts = computed(() => {
 
 <template>
 	<div class="text-center bg-white">
-        <h1 class="text-slate-700 font-bold text-3xl">Harga Sewa Bus Pariwisata Bandung</h1>
+        <h1 class="text-slate-700 font-bold text-3xl">Daftar Pelayanan Wisata</h1>
     </div>
 	<section class="bg-white flex items-center justify-center px-6">   
 		<div class="container">

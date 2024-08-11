@@ -61,8 +61,11 @@ const clikEdit = (id: number, nama: string, alamat: string, no_hp:string) => {
   newPercobaan2.value=no_hp
   editId.value=id
 }
+
+// ujicoba enkripsi
 </script>
-<template>
+<!-- <template>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 <div class="w-1/2 mx-auto flex flex-col py-6 gap-3">
     <div class="flex items-center gap-4">
         <h1 class="text-3xl font-semibold">Percobaan</h1>
@@ -116,7 +119,7 @@ const clikEdit = (id: number, nama: string, alamat: string, no_hp:string) => {
     <h1 class="px-2 border-2 border-gray-500 rounded-md">3</h1>
     <h1 class="px-2 font-bold">></h1>
   </div>
-</div> 
+</div>  -->
 
 <!-- <div class="p-16">
      <div x-data="{open : false}">
@@ -142,4 +145,3 @@ const clikEdit = (id: number, nama: string, alamat: string, no_hp:string) => {
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem similique repellendus perferendis aspernatur! Impedit, dolorum harum error quis possimus, inventore necessitatibus dolore aperiam totam itaque delectus officia quisquam sit quos.
       </p>
 </div> -->
-</template>

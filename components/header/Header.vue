@@ -64,7 +64,7 @@
                 <NuxtLink to="/kategori" class="text-base text-slate-800">Kategori</NuxtLink>
                 <NuxtLink to="/destinasi" class="text-base text-slate-800">Destinasi</NuxtLink>
                 <NuxtLink to="/informasi" class="text-base text-slate-800">Informasi</NuxtLink>
-                <NuxtLink to="/percobaan" class="bg-sky-500 text-base hover:bg-sky-300 text-white p-2 font-semibold rounded-md">Booking</NuxtLink>
+                <NuxtLink to="/login" class="bg-sky-500 text-base hover:bg-sky-300 text-white p-2 font-semibold rounded-md">Booking</NuxtLink>
             </div>
             </div>
         </div>

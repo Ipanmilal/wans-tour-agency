@@ -203,16 +203,22 @@ const clikEdit = (id: number, nama: string, jumlah_seat: number, harga:string, d
 
 <template>
   <section v-for="(destinasi, index) in destinasi" :key="index" class="bg-white w-{200px} border-4 border-sky-600 shadow-xl rounded-xl">
-    <div :class="`w-full h-[200px] p-5 bg-gray-300 rounded-xl`">
+    <div :class="`w-full h-[200px] p-5 bg-white shadow-lg rounded-xl`">
       <img src="/assets/images/logowta.png" class="w-full h-full object-contain rounded-xl" />
     </div>
     <div class="px-5 pb-5 pt-9 relative">
-      <NuxtLink :to="`/product/${destinasi.id}`"><h3 class="text-2xl font-bold text-slate-700 mb-4 text-limit limit-2">{{ destinasi.nama }}</h3>
-        <h3 class="text-lg font-bold text-slate-700 mb-4 text-limit limit-2">Jumlah Seat = {{ destinasi.jumlah_seat }}</h3>
+      <NuxtLink :to="`/product/${destinasi.id}`">
+        <h3 class="text-2xl font-bold text-slate-700  text-limit limit-2 text-center w-[300px]">{{ destinasi.nama }}</h3>
+        <h3 class="text-md text-slate-700  text-limit limit-2">{{ destinasi.jumlah_seat }} seat</h3>
+        <h2 class="text-lg text-slate-700">Harga Mulai</h2>
       </NuxtLink>
       <div class="flex justify-center items-center">
-        <span class="text-2xl text-sky-600 font-bold">Rp.{{ destinasi.harga }}</span>
+        <span class="text-2xl text-slate-800 font-bold">Rp.{{ destinasi.harga }}</span>
       </div>
+      <h2 class="text-md text-slate-700">Harga hanya termasuk BBM & Crew</h2>
+      <NuxtLink :to="`/product/${destinasi.id}`">
+        <h3 class="text-md text-sky-500  text-limit limit-2">Detail</h3>
+      </NuxtLink>
     </div>
   </section>
 </template>
