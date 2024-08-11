@@ -8,6 +8,5 @@ const product = ref(products.find((item: Products) => item.id === id));
 </script>
 
 <template>
-	cek
 	<DetailProduct :product="product"/>
 </template>

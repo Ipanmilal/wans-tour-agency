@@ -46,9 +46,9 @@ const addDestinasi = async() => {
     }
     await getDestinasi()
 }
-const deletePercobaan = async (id: number, nama: string, alamat: string, no_hp:string) =>{
+const deletePercobaan = async (id: number) =>{
     // todos.value.splice(index, 1)
-    await hapus(id)
+    await useSupabaseClient().from("tb_destinasi").delete().eq("id", id)
 } 
 //edit data
 const updateDestinasi = async () =>{
@@ -113,12 +113,12 @@ const clikEdit = (id: number, nama: string, jumlah_seat: number, harga:string, d
           <td class="border-2 border-white px-2 text-sm">{{ destinasi.nama }}</td>
           <td class="border-2 border-white px-2 text-sm">{{ destinasi.jumlah_seat }}</td>
           <td class="border-2 border-white px-2 text-sm">{{ destinasi.harga  }}</td>
-          <td class="border-2 border-white px-2 text-sm">{{ destinasi.deskripsi  }}</td>
+          <td class="border-2 border-white px-2 text-sm h-[200px]">{{ destinasi.deskripsi  }}</td>
           <td class="border-2 border-white px-2 text-sm">{{ destinasi.info  }}</td>
           <th class="border-2 border-white px-2 gap-2">
             <div class="flex justify-center gap-2">
             <button class="w-[50px] bg-blue-600 rounded-sm text-white text-sm mr-2" @click="clikEdit(destinasi.id, destinasi.nama, destinasi.jumlah_seat, destinasi.harga, destinasi.deskripsi, destinasi.info)">Edit</button> 
-            <button class="w-[50px] bg-red-600 rounded-sm text-white text-sm" @click="updateDestinasi" >Hapus</button>
+            <button class="w-[50px] bg-red-600 rounded-sm text-white text-sm" @click="deletePercobaan(destinasi.id)" >Hapus</button>
             </div>
           </th>
         </tr>

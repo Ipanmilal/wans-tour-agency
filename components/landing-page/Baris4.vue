@@ -5,7 +5,7 @@
     <div class="bg-white pb-6 grid place-items-center gap-6 mx-auto sm:flex sm:flex-wrap justify-center font-inter items-center">
         <div class="bg-white flex items-center mt-6">
             <div>
-                <img class="w-{100px} h-[100px]" src="/assets/images/Artboard 1.png">
+                <img class="w-{100px} h-[100px]" src="/assets/images/logowta.png">
             </div>
             <div class="w-[400px]">
             <h1 class="text-slate-700 font-bold text-2xl">Banyak Pilihan</h1>
@@ -14,7 +14,7 @@
         </div>
         <div class="bg-white flex items-center mt-6">
             <div>
-                <img class="w-{100px} h-[100px]" src="/assets/images/Artboard 1.png">
+                <img class="w-{100px} h-[100px]" src="/assets/images/logowta.png">
             </div>
             <div class="w-[400px]">
             <h1 class="text-slate-700 font-bold text-2xl">Berpengalaman</h1>
@@ -23,7 +23,7 @@
         </div>
         <div class="bg-white flex items-center mt-6">
             <div>
-                <img class="w-{100px} h-[100px]" src="/assets/images/Artboard 1.png">
+                <img class="w-{100px} h-[100px]" src="/assets/images/logowta.png">
             </div>
             <div class="w-[400px]">
             <h1 class="text-slate-700 font-bold text-2xl">Harga Bersahabat</h1>
@@ -32,7 +32,7 @@
         </div>
         <div class="bg-white flex items-center mt-6">
             <div>
-                <img class="w-{100px} h-[100px]" src="/assets/images/Artboard 1.png">
+                <img class="w-{100px} h-[100px]" src="/assets/images/logowta.png">
             </div>
             <div class="w-[400px]">
             <h1 class="text-slate-700 font-bold text-2xl">Terpercaya</h1>
@@ -41,7 +41,7 @@
         </div>
         <div class="bg-white flex items-center mt-6">
             <div>
-                <img class="w-{100px} h-[100px]" src="/assets/images/Artboard 1.png">
+                <img class="w-{100px} h-[100px]" src="/assets/images/logowta.png">
             </div>
             <div class="w-[400px]">
             <h1 class="text-slate-700 font-bold text-2xl">Banyak Pilihan</h1>
@@ -50,7 +50,7 @@
         </div>
         <div class="bg-white flex items-center mt-6">
             <div>
-                <img class="w-{100px} h-[100px]" src="/assets/images/Artboard 1.png">
+                <img class="w-{100px} h-[100px]" src="/assets/images/logowta.png">
             </div>
             <div class="w-[400px]">
             <h1 class="text-slate-700 font-bold text-2xl">Banyak Pilihan</h1>
