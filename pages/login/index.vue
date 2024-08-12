@@ -7,16 +7,16 @@
     >
       <!-- {/* Left Section */} -->
       <div class="lg:w-1/2 xl:w-5/12 p-10 md:p-14">
-        <div class="flex gap-x-2">
+        <div class="flex gap-x-2 justify-center">
           <!-- {/* Logo */} -->
-          <img
+          <!-- <img
             src="/assets/images/logowta.jpeg"
             width="38"
             height="38"
             alt="logo"
-          />
-          <span class="text-3xl font-medium font-noto text-primary">
-            retrorevive
+          /> -->
+          <span class="text-3xl font-medium font-noto text-slate-800">
+            Wans Tour Agency
           </span>
         </div>
         <div class="mt-6 flex flex-col items-center">
@@ -41,21 +41,20 @@
               />
               <button
                 type="submit"
-                class="mt-10 tracking-wide font-semibold bg-primary text-white-500 w-full py-4 rounded-lg hover:bg-h_primary transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                class="mt-10 tracking-wide font-semibold bg-blue-500 text-white-500 w-full py-4 rounded-lg hover:bg-h_primary transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
               >
                 <span class="ml-2 text-white font-bold"> Login </span>
               </button>
             </form>
           </div>
         </div>
+        <div class="mt-20">
+        <p class="mt-6">belum punya akun?<span class="ms-1 text-blue-500">klik disini</span></p>
+        </div>
       </div>
       <!-- {/* Right Section */} -->
-      <div
-        class="flex-1 border-l text-center hidden lg:flex rounded-r-lg md:rounded-r-2xl"
-      >
-        <div
-          class="m-12 xl:m-16 w-full bg-auth-background bg-contain bg-center bg-no-repeat"
-        ></div>
+      <div class="flex-1 border-l text-center hidden lg:flex rounded-r-lg md:rounded-r-2xl">
+        <img src="/assets/images/logowta.jpeg" class=" p-6"/> 
       </div>
     </div>
   </div>
@@ -77,7 +76,7 @@ const login = async () => {
   try {
     const user = await userStore.login(email.value, password.value);
     if (user.role=="admin") {
-      router.push("/informasi");
+      router.push("/DashboardAdmin");
     }
     else {
       router.push("/")
