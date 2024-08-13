@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Destinasi from './destinasi.vue';
+// import Destinasi from './destinasi.vue';
 
 const items = [
   'https://picsum.photos/1920/1080?random=1',
