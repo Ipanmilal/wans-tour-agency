@@ -54,7 +54,7 @@
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex items-center gap-4">
                 <img src="/assets/images/logowta.jpeg" class="h-12 w-12 gap-6 animate-pulse" alt="">
-                <span class="text-2xl text-blue-400 lg:text-xl lg:text-slate-800 font-bold">Wans Tour Agency</span>
+                <span class="text-2xl text-black lg:text-xl lg:text-slate-800 font-bold">Wans Tour Agency</span>
             </div>
           </div>
           <div class="hidden sm:block sm:ml-6">

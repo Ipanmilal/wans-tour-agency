@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     baseurl: process.env.SUPABASE_URL,
     secretkey: process.env.SUPABASE_SECRET_KEYS
   },
-
   modules: ["@nuxt/ui", "@pinia/nuxt"]
   
 })
